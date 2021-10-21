@@ -1,3 +1,15 @@
+commit a5fbe787cc684cd8ddc82b116fa3048f04671625
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Oct 21 11:28:44 2021 +1000
+
+    Update Main folder
+
+commit 9d344a53b615a9860ed2376d0d50d5c115d7e3eb
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Oct 16 16:42:25 2021 +1000
+
+    Finsihed day one, Readme more details
+
 commit f22e89384095ff620a6dccf3830e294ae8a95353
 Author: Kyle Corlett <corlettkyle5@hotmail.com>
 Date:   Sat Oct 16 11:26:06 2021 +1000
