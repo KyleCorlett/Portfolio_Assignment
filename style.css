@@ -1,20 +1,25 @@
 body {
     background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
 
-@media  and (min-width:600px) {
-    .Main{
-        display: flex;
+a:visited{
+    color: black;
+}
+
+@media screen and (min-width: 600px) {
+    .Main {
         display: none;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
     .Banner {
         top: 0;
         bottom:0;

@@ -20,3 +20,6 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Created fix banner point for over 600px
 - Created main div for home page content
 - Made links for mobile non visible above 600px
+- Created JS script
+- Linked JS script page
+- Fixed stylesheet link
