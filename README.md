@@ -16,3 +16,7 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Added place holder blog posts in article divs
 - Added placeholder for body of work
 - Added img of myself on the main page
+- Created files for the banners and portrait, and linked them to appropriate img attributes
+- Created fix banner point for over 600px
+- Created main div for home page content
+- Made links for mobile non visible above 600px

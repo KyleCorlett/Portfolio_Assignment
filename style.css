@@ -7,4 +7,28 @@ h1 {
     color: white;
 }
 
-/*h1 styling for headers on each page*/
+@media  and (min-width:600px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    .Banner {
+        top: 0;
+        bottom:0;
+        position:fixed;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    
+    footer{
+        top: 0;
+        bottom:0;
+        position:fixed;
+        overflow-y:scroll;
+        overflow-x:hidden; 
+    } /*Stick icons in bottom right*/
+
+    .Mobile-Links{
+        display: none;
+    }
+}
