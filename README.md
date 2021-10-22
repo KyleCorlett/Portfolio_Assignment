@@ -23,3 +23,5 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Created JS script
 - Linked JS script page
 - Fixed stylesheet link
+- Created a stylesheet for mobile layout
+- Removed JS
