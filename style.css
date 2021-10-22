@@ -8,7 +8,10 @@ h1 {
 }
 
 @media  and (min-width:600px) {
-    
+    .Main{
+        display: flex;
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
