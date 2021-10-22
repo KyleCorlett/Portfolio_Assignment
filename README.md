@@ -6,7 +6,21 @@ Create all pages and filled in basic layout of HTML script for each of the pages
 
 Added a title and main header for each page, as well as a placeholder for a banner picture. Put a placeholder for the navbar which I will introduce once I have my layout figured out and created a basic form for contact page which I will expand on later.
 
-## Day Two (22nd/10/2021)
+### Mobile Layout
+
+- Started adding flexbox attributes to css sheet (22/10/21)
+- Added Hamburger Nav bar using JS (22/10/21)
+- Made main banner hide when in mobile use (22/10/21)
+- Added banner placeholder for navbar (22/10/21)
+- Made profile img fit to screen
+
+### Main Layout
+
+- Started Nav for main layout (22/10/21)
+- Blocked layout options for mobile page (22/10/21)
+- Changed css break point to 770px
+
+## Day Two (22/10/2021)
 
 - Created Trello work space to keep track of project
 - Added Meta Data to each page for context and to help with responsiveness
@@ -25,9 +39,9 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Fixed stylesheet link
 - Created a stylesheet for mobile layout
 
-### Started Mobile Layout
+## Day Three (23/10/22)
 
-- Started adding flexbox attributes to css sheet
-- Added Hamburger Nav bar using JS
-- Made main banner hide when in mobile use
-
+- Created about page to give home page more clarity
+- Added about page into Nav bar
+- Changed responsiveness to break at 770px
+- Added Image of myself on main page

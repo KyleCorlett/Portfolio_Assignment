@@ -4,6 +4,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+img {
+  width: 100%;
+  filter: opacity(50%);
+  -webkit-filter: opacity(50%);
+}
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
