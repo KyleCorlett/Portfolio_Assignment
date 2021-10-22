@@ -13,12 +13,17 @@ a:visited{
     color: white;
 }
 
+.Mobile{
+    display: none;
+}
+
 .Banner {
     top: 0;
     bottom:0;
     position:fixed;
     overflow-y:scroll;
     overflow-x:hidden;
+    display: flex;
 }
     
 footer{
@@ -27,6 +32,7 @@ footer{
     position:fixed;
     overflow-y:scroll;
     overflow-x:hidden; 
+    display: flex;
  } /*Stick icons in bottom right*/
 
 .Mobile-Links{

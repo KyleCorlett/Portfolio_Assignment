@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" media="screen and (max-width: 601px)" href="style.css">
-        <link rel="stylesheet" media="screen and (min-width: 600px)" href="small.css">
+        <link rel="stylesheet" media="screen and (min-width: 601px)" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="small.css">
         <title>Kyle Corlett</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="index.js"></script>
     </head>
     <body>
         <img src="./Portfolio_Assignment/files/Images/Home-banner.png" alt="Home Page Banner" class="Banner"> <!-- Banner For Main page-->
-        <nav>
+
+        <nav class="Mobile">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="mobilenav">
+                <a href="#home" class="active"><img src="" alt="Kyle Corlett"></a>
+                <div id="myLinks">
+                    <a href="/Portfolio_Assignment/home.html">Home</a>
+                    <a href="./pages/blog.html">Blog</a>
+                    <a href="./pages/work.html">Work</a>
+                    <a href="./pages/contact.html">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <nav class="Main">
             <a href="/Portfolio_Assignment/home.html">Home</a>
             <a href="./pages/blog.html">Blog</a>
             <a href="./pages/work.html">Work</a>
             <a href="./pages/contact.html">Contact</a>
         </nav>
+
         <main>
             <h1>Kyle Corlett</h1>
             <img href="/Portfolio_Assignment/files/Images/Kyle.png" alt="Picture of Kyle Corlett">

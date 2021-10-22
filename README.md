@@ -24,4 +24,10 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Linked JS script page
 - Fixed stylesheet link
 - Created a stylesheet for mobile layout
-- Removed JS
+
+### Started Mobile Layout
+
+- Started adding flexbox attributes to css sheet
+- Added Hamburger Nav bar using JS
+- Made main banner hide when in mobile use
+

@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" media="screen and (max-width: 601px)" href="/Portfolio_Assignment/style.css">
-        <link rel="stylesheet" media="screen and (min-width: 600px)" href="/Portfolio_Assignment/small.css">
+        <link rel="stylesheet" media="screen and (min-width: 601px)" href="/Portfolio_Assignment/style.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="/Portfolio_Assignment/small.css">
         <title>Contact</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
+        <script src="/Portfolio_Assignment/index.js"></script>
     <body>
        <img href="./Portfolio_Assignment/files/Images/Contact-banner.png" alt="Contact Page Banner" class="Banner"> <!--Banner for Contact page-->
-       <nav>
+
+        <nav class="Mobile">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="mobilenav">
+                <a href="#home" class="active"><img src="" alt="Contact Page"></a>
+                <div id="myLinks">
+                    <a href="/Portfolio_Assignment/home.html">Home</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="work.html">Work</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <nav class="Main">
             <a href="/Portfolio_Assignment/home.html">Home</a>
             <a href="blog.html">Blog</a>
             <a href="work.html">Work</a>
             <a href="contact.html">Contact</a>
-       </nav>
-       <h1>Contact</h1>
+        </nav>
+
         <form>
             <input type="text" placeholder="Name">
             <input type="email" placeholder="Email Address">
