@@ -6,15 +6,17 @@ Create all pages and filled in basic layout of HTML script for each of the pages
 
 Added a title and main header for each page, as well as a placeholder for a banner picture. Put a placeholder for the navbar which I will introduce once I have my layout figured out and created a basic form for contact page which I will expand on later.
 
-### Mobile Layout
+### Mobile Layout Updates
 
 - Started adding flexbox attributes to css sheet (22/10/21)
 - Added Hamburger Nav bar using JS (22/10/21)
 - Made main banner hide when in mobile use (22/10/21)
 - Added banner placeholder for navbar (22/10/21)
 - Made profile img fit to screen
+- Created background image that is responsive
+- Moved Main page text to bottom
 
-### Main Layout
+### Main Layout Updates
 
 - Started Nav for main layout (22/10/21)
 - Blocked layout options for mobile page (22/10/21)
@@ -45,3 +47,5 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Added about page into Nav bar
 - Changed responsiveness to break at 770px
 - Added Image of myself on main page
+- Added main page text and short description
+- Added link to about page on home page
