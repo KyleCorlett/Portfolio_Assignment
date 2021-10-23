@@ -15,12 +15,17 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Made profile img fit to screen
 - Created background image that is responsive
 - Moved Main page text to bottom
+- Split body into home page and others using class
+- Added gradient to help with text
+- Made fixed footer for work page and fixed it to the bottom with links
+- aligned the contact form
 
 ### Main Layout Updates
 
 - Started Nav for main layout (22/10/21)
 - Blocked layout options for mobile page (22/10/21)
 - Changed css break point to 770px
+- Created Headers and descriptions for work profile that disappear for mobile
 
 ## Day Two (22/10/2021)
 
@@ -49,3 +54,5 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Added Image of myself on main page
 - Added main page text and short description
 - Added link to about page on home page
+- Added filler content to all the pages to help with styling
+- Added a button to the contact for

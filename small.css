@@ -10,6 +10,9 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
     height: 100%;
+    font-weight: bolder;
+    margin: 0;
+    background-image:  linear-gradient(0deg, rgba(2,0,36,1) 0%, transparent 40%);
 }
 
 #Pages{
@@ -28,9 +31,7 @@
   display: flex;
   background-color: black;
   filter: grayscale(50%);
-  -webkit-filter: grayscale(50%);
 }
-
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,20 +43,68 @@ main {
   flex-direction: column;
   justify-content: flex-end;
   height: 90%;
+  margin: 3%;
 }
 
 a:visited{
     color: white;
+    text-decoration: none;
+}
+a:hover{
+  color: purple;
+}
+a{
+  text-decoration: none;
 }
 
 footer{
-  background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.26234243697478987) 80%);
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 5%;
+}
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Mobile-Links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Mobile-Links img{
+  width: 80px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#Message{
+  height: 100px;
+}
+
+.odd{
+  background-color: white;
+  color: black;
+}
+article h2{
+  display: flex;
+  justify-content: center;
+}
+.About h1{
+  display: flex;
+  justify-content: center;
 }
 
 .mobilenav {
     overflow: hidden;
-    background-color: transparent;
+    background-color: black;
     position: relative;
 }
   
