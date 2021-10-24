@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
 h1 {
@@ -10,22 +11,50 @@ h1 {
 }
 
 a:visited{
-    color: white;
+    color: purple;
 }
 
 .Mobile{
     display: none;
 }
-
-.Banner {
-    top: 0;
-    bottom:0;
-    position:fixed;
-    overflow-y:scroll;
-    overflow-x:hidden;
+nav{
+    background-color: #202124;
     display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
-    
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+#navtext{
+    color: white;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+#navtext:hover{
+    color: purple;
+}
+#contact:hover{
+    color: purple;
+}
+#contact{
+    position: relative;
+    padding-right: 20px;
+    flex: 1;
+    text-align: right;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+#Profileimg{
+    width: 40%;
+}
 footer{
     top: 0;
     bottom:0;

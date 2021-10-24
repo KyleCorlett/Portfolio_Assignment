@@ -12,20 +12,24 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Added Hamburger Nav bar using JS (22/10/21)
 - Made main banner hide when in mobile use (22/10/21)
 - Added banner placeholder for navbar (22/10/21)
-- Made profile img fit to screen
-- Created background image that is responsive
-- Moved Main page text to bottom
-- Split body into home page and others using class
-- Added gradient to help with text
-- Made fixed footer for work page and fixed it to the bottom with links
-- aligned the contact form
+- Made profile img fit to screen(23/10/21)
+- Created background image that is responsive (23/10/21)
+- Moved Main page text to bottom (23/10/21)
+- Split body into home page and others using class (23/10/21)
+- Added gradient to help with text (23/10/21)
+- Made fixed footer for work page and fixed it to the bottom with links (23/10/21)
+- aligned the contact form (23/10/21)
 
 ### Main Layout Updates
 
 - Started Nav for main layout (22/10/21)
 - Blocked layout options for mobile page (22/10/21)
-- Changed css break point to 770px
-- Created Headers and descriptions for work profile that disappear for mobile
+- Changed css break point to 770px (23/10/21)
+- Created Headers and descriptions for work profile that disappear for mobile(23/10/21)
+- Styled nav bar and added id links (24/10/21)
+- Started to style Home page (24/10/21)
+- Removed footer from Blog page (24/10/21)
+
 
 ## Day Two (22/10/2021)
 
@@ -60,3 +64,8 @@ Added a title and main header for each page, as well as a placeholder for a bann
 ## Day Four (24/10/21)
 
 - Fixed Broken links in NavBar and stylesheets
+- Started to style desktop main page
+- Removed footer from blog page
+- Changed links around for nav bar
+- Styled desktop Nav bar
+- Fixed JS link to home page
