@@ -56,3 +56,7 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Added link to about page on home page
 - Added filler content to all the pages to help with styling
 - Added a button to the contact for
+
+## Day Four (24/10/21)
+
+- Fixed Broken links in NavBar and stylesheets
