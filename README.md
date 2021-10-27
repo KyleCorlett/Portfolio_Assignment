@@ -19,6 +19,10 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Added gradient to help with text (23/10/21)
 - Made fixed footer for work page and fixed it to the bottom with links (23/10/21)
 - aligned the contact form (23/10/21)
+- Blog images size to screen (27/10/21)
+- Gave Blog text padding (27/10/21)
+- Unfixed footer from work page (27/10/21)
+- Made img for work page fit page
 
 ### Main Layout Updates
 
@@ -31,7 +35,7 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Removed footer from Blog page (24/10/21)
 
 
-## Day Two (22/10/2021)
+## (22/10/2021)
 
 - Created Trello work space to keep track of project
 - Added Meta Data to each page for context and to help with responsiveness
@@ -50,7 +54,7 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Fixed stylesheet link
 - Created a stylesheet for mobile layout
 
-## Day Three (23/10/22)
+## (23/10/22)
 
 - Created about page to give home page more clarity
 - Added about page into Nav bar
@@ -61,7 +65,7 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Added filler content to all the pages to help with styling
 - Added a button to the contact for
 
-## Day Four (24/10/21)
+## (24/10/21)
 
 - Fixed Broken links in NavBar and stylesheets
 - Started to style desktop main page
@@ -69,3 +73,12 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Changed links around for nav bar
 - Styled desktop Nav bar
 - Fixed JS link to home page
+
+## (27/10/21)
+
+- Added images to blog page
+- Made Images adjust to mobile screen size
+- Changed blog titles
+- Gave the blog text padding
+- Added images to Work Page
+- Rearranged Work Page
