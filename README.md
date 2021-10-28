@@ -86,3 +86,6 @@ Description of website:
 - Added embedded links to work image files
 - Added integrity attribute to each file on the stylesheets
 - Changed nav ID to classes
+- Fixed banner links
+- Added alt text to links on work page
+- Added language tags to each page
