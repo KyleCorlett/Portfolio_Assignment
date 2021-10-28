@@ -1,10 +1,9 @@
 # Portfolio Assignment
 
-## Day One (16th/10/2021)
-
-Create all pages and filled in basic layout of HTML script for each of the pages. Create a CSS stylesheet and linked all pages to it to have cohesive design.
-
-Added a title and main header for each page, as well as a placeholder for a banner picture. Put a placeholder for the navbar which I will introduce once I have my layout figured out and created a basic form for contact page which I will expand on later.
+GitHub: https://github.com/KyleCorlett/Portfolio_Assignment
+Website:
+Trello: https://trello.com/invite/b/h2tnQPcF/42f8e04984d2d6bfac43811bdd4b1aea/portfolio-assessment
+Description of website:
 
 ### Mobile Layout Updates
 
@@ -33,7 +32,6 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Styled nav bar and added id links (24/10/21)
 - Started to style Home page (24/10/21)
 - Removed footer from Blog page (24/10/21)
-
 
 ## (22/10/2021)
 
@@ -82,3 +80,9 @@ Added a title and main header for each page, as well as a placeholder for a bann
 - Gave the blog text padding
 - Added images to Work Page
 - Rearranged Work Page
+
+## (28/10/21)
+
+- Added embedded links to work image files
+- Added integrity attribute to each file on the stylesheets
+- Changed nav ID to classes

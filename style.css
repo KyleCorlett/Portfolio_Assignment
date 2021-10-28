@@ -29,18 +29,18 @@ nav a{
     margin-left: 20px;
     text-decoration: none;
 }
-#navtext{
+.navtext{
     color: white;
     font-weight: 400;
     letter-spacing: .02em;
 }
-#navtext:hover{
+.navtext:hover{
     color: purple;
 }
-#contact:hover{
+.contact:hover{
     color: purple;
 }
-#contact{
+.contact{
     position: relative;
     padding-right: 20px;
     flex: 1;
