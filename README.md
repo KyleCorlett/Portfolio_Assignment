@@ -32,6 +32,8 @@ Description of website:
 - Styled nav bar and added id links (24/10/21)
 - Started to style Home page (24/10/21)
 - Removed footer from Blog page (24/10/21)
+- Styled work page and added information (28/10/21)
+- Added footer for work page with links
 
 ## (22/10/2021)
 
@@ -89,3 +91,6 @@ Description of website:
 - Fixed banner links
 - Added alt text to links on work page
 - Added language tags to each page
+- Updated webiste ones information
+- Started to Style Desktop Work Page
+- Put footer with links on desktop layout

@@ -11,7 +11,7 @@ h1 {
 }
 
 a:visited{
-    color: purple;
+    color: white;
 }
 
 .Mobile{
@@ -54,16 +54,36 @@ main{
 }
 #Profileimg{
     width: 40%;
-}
-footer{
-    top: 0;
-    bottom:0;
-    position:fixed;
-    overflow-y:scroll;
-    overflow-x:hidden; 
     display: flex;
- } /*Stick icons in bottom right*/
-
-.Mobile-Links{
-        display: none;
+    flex-direction: row;
 }
+.col2{
+    display: inline-block;
+    text-align: center;
+}
+
+section img{
+    width: 100%;
+}
+section h1{
+    font-family: 'Oleo Script', cursive;
+    font-size: 500%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+section p{
+    font-size: 200%;
+    margin: 0 10px;
+    color: purple;
+}
+
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer img{
+    width: 80px;
+  }
