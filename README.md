@@ -2,8 +2,8 @@
 
 GitHub: https://github.com/KyleCorlett/Portfolio_Assignment
 Website:
-Trello: https://trello.com/invite/b/h2tnQPcF/42f8e04984d2d6bfac43811bdd4b1aea/portfolio-assessment
 Description of website:
+Site layout:
 
 ### Mobile Layout Updates
 
@@ -22,6 +22,9 @@ Description of website:
 - Gave Blog text padding (27/10/21)
 - Unfixed footer from work page (27/10/21)
 - Made img for work page fit page (28/10/21)
+- Made Nav have purple selected links (03/11/21)
+- Nav non clickable current page (03/11/21)
+- Nav have text instead of banner img (03/11/21)
 
 ### Main Layout Updates
 
@@ -34,8 +37,11 @@ Description of website:
 - Removed footer from Blog page (24/10/21)
 - Styled work page and added information (28/10/21)
 - Added footer for work page with links (28/10/21)
-- Css grid to style work page
-- Styled h1 fonts
+- Css grid to style work page (28/10/21)
+- Styled h1 fonts (28/10/21)
+- Styled blog posts (03/11/21)
+- Made current page link purple and non clickable (03/11/21)
+- Added banners (03/11/21)
 
 ## (22/10/2021)
 
@@ -93,7 +99,7 @@ Description of website:
 - Fixed banner links
 - Added alt text to links on work page
 - Added language tags to each page
-- Updated webiste ones information
+- Updated website ones information
 - Started to Style Desktop Work Page
 - Put footer with links on desktop layout
 - Added google font link to all pages for h1 elements
@@ -108,3 +114,7 @@ Description of website:
 - Changed current page link to inactive and change the color for current webpage in nav bar
 - Changed current page font size and underlined in mobile nav bar
 - Removed Nav top link on mobile layout
+- Made Images fit screen blog desktop
+- Styled desktop blog posts layout
+- Added banners to desktop pages
+- Sized banners to pages
