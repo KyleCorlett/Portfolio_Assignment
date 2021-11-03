@@ -45,6 +45,7 @@ Site layout:
 - Changed to a side nav bar (04/11/21)
 - Added social links and img to new nav (04/11/21)
 - Hid work links (04/11/21)
+- Made link images B/W (04/11/21)
 
 ## (22/10/2021)
 
@@ -128,3 +129,4 @@ Site layout:
 - Styled main nav bar
 - added social links and img to main nav bar
 - fixed links on other pages with new nav bar
+- Made Nav bar link images black and white
