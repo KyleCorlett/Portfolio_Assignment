@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    margin-left: 170px;
 }
 
 h1 {
@@ -18,40 +19,17 @@ a:visited{
 .Mobile{
     display: none;
 }
-nav{
-    background-color: #202124;
-    display: flex;
-    flex-direction: row;
-    font-size: 150%;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-nav a{
-    margin-left: 20px;
-    text-decoration: none;
-}
+
 .navtext{
     color: white;
     font-weight: 400;
     letter-spacing: .02em;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
 }
 .navtext:hover{
     color: purple;
-}
-.contact:hover{
-    color: purple;
-}
-.contact{
-    position: relative;
-    padding-right: 20px;
-    flex: 1;
-    text-align: right;
-    color: white;
-}
-main{
-    display: flex;
-    flex-direction: column;
-
 }
 #Profileimg{
     width: 40%;
@@ -123,4 +101,35 @@ section p{
   }
  .Banner{
      width: 100%;
+ }
+ #Menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 8em;
+    margin-top: 0;
+    height: 100%;
+    width: 120px;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+    z-index: 1;
+ }
+ #Menu a{
+     display: flex;
+     flex-direction: column;
+ }
+ .navsocials img{
+     width: 50px;
+     padding: 0px 5px;
+ }
+ .navsocials{
+    position: fixed; 
+    bottom: 10px;
+    left: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
  }
