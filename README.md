@@ -105,3 +105,6 @@ Description of website:
 - Changed mobile banners to just be text and styled them
 - Changed work headers to links to open in new Tabs and embedded github links to the projects
 - Removed pointless footer divs
+- Changed current page link to inactive and change the color for current webpage in nav bar
+- Changed current page font size and underlined in mobile nav bar
+- Removed Nav top link on mobile layout
