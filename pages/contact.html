@@ -13,7 +13,7 @@
         <nav class="Mobile">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <div class="mobilenav">
-                <a href="#home" class="active"><img src="/files/Images/contactmobile.png" alt="Contact Page"></a>
+                <a href="#home" class="active" id="Mobileheader">Contact Me</a>
                 <div id="myLinks">
                     <a href="/home.html">Home</a>
                     <a href="about.html">About</a>
@@ -37,20 +37,19 @@
         <br>
         <div class="Contact">
             <p>Name: Kyle Corlett</p>
-            <p>Email: Corlettkyle5@hotmail.com</p>
-            <p>Phone: 0401087894</p>
+            <p>Email: TestEmail@hotmail.com</p>
+            <p>Phone: 0412345678</p>
         </div>
         <br>
         <h2 class="Contact">Contact me</h2>
         <form>
             <input type="text" placeholder="Name"><br>
             <input type="email" placeholder="Email Address"><br>
-            <input type="text" placeholder="Message" id="Message"><br>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a message here" id="Message" style="height: 100px"></textarea>
+                <label for="floatingTextarea2"></label>
+              </div>
             <input type="button" value="Submit">
         </form>
-
-        <footer class="Mobile">
-            
-        </footer>
     </body>
 </html>

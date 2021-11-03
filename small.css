@@ -22,6 +22,14 @@
   height: 100%; 
 }
 
+#Mobileheader{
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  font-size: 200%;
+  margin: 0%;
+  padding: 0%;
+}
+
 .bg {
   background-image: url("/files/Images/Kyle.png");
   height: 100%;
@@ -55,6 +63,7 @@ a:hover{
 }
 a{
   text-decoration: none;
+  text-align: center;
 }
 section {
   display: flex;
@@ -79,6 +88,7 @@ form{
 }
 #Message{
   height: 100px;
+  width: 98%;
 }
 
 .odd{

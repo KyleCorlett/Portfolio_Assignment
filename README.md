@@ -98,3 +98,10 @@ Description of website:
 - Put footer with links on desktop layout
 - Added google font link to all pages for h1 elements
 - Uses grid to style desktop work page more
+
+## (03/11/21)
+
+- Changed contact message form input
+- Changed mobile banners to just be text and styled them
+- Changed work headers to links to open in new Tabs and embedded github links to the projects
+- Removed pointless footer divs
