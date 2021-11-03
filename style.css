@@ -22,7 +22,7 @@ nav{
     background-color: #202124;
     display: flex;
     flex-direction: row;
-    font-size: 250%;
+    font-size: 150%;
     padding: 5px;
     margin-bottom: 20px;
 }
@@ -101,4 +101,23 @@ section p{
   }
   footer img{
     width: 80px;
+  }
+  .articles img{
+      width: 100%;
+  }
+  .articles h2{
+      text-align: center;
+      text-decoration: underline;
+  }
+  .articles{
+      margin: 0px 10px;
+      padding-top: 30px;
+  }
+  .articles p{
+      padding: 0 15px;
+  }
+  .odd{
+      background-color: white;
+      color: black;
+      padding-bottom: 15px;
   }
