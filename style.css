@@ -19,6 +19,9 @@ a:visited{
 .Mobile{
     display: none;
 }
+.Mobile-Links{
+    display: none;
+}
 
 .navtext{
     color: white;

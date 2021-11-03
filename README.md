@@ -42,8 +42,9 @@ Site layout:
 - Styled blog posts (03/11/21)
 - Made current page link purple and non clickable (03/11/21)
 - Added banners (03/11/21)
-- Changed to a side nav bar
-- Added social links and img to new nav
+- Changed to a side nav bar (04/11/21)
+- Added social links and img to new nav (04/11/21)
+- Hid work links (04/11/21)
 
 ## (22/10/2021)
 
