@@ -102,37 +102,6 @@ a:hover{
     flex-direction: row;
     border-radius: 50%;
 }
-section{ /*Work page main div*/
-    margin: auto;
-    text-align: center;
-    flex-wrap: wrap;
-    padding-bottom: 5px;
-}
-.col2{ /* Work page items*/
-    display: grid;
-    grid-template: 0% 0% / 50% 50%;
-    border: purple 1px solid;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 0%;
-}
-/*Work Page Items*/
-section img{
-    width: 100%;   
-}
-section h1{
-    font-family: 'Oleo Script', cursive;
-    font-size: 500%;
-    padding-bottom: 0;
-    margin-bottom: 5px;
-    text-decoration: underline;
-}
-section p{
-    font-size: 200%;
-    margin: 0 10px;
-    color: purple;
-    padding-bottom: 10px;
-}
 /*Home Page Layout*/
 .Homepage{
     display: flex;
@@ -143,16 +112,6 @@ section p{
     padding-top: 35px;
     width: 100px;
     height: 100%;
-}
-/*Contact Page Layout*/
-.Contactpg{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
-#formitem{
-    margin-bottom: 20px;
 }
 /*Blog Page Layout*/
 .articles img{
@@ -195,7 +154,6 @@ section p{
     padding: var(--padding);
     background: linear-gradient(hsl(0 0% 0% / 0), hsl(255 50% 0% / .5) 20%, hsl(0 0% 0% / 1));
 }
-
 @media (hover){
     .container{
     transform: translateY(55%);
@@ -271,4 +229,49 @@ section p{
     transform: scaleX(0);
     transition: transform 300ms ease;
     transform-origin: left;
+}
+/*Work Page Layout*/
+section{ /*Work page main div*/
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+.col2{ /* Work page items*/
+    display: grid;
+    grid-template: 0% 0% / 50% 50%;
+    border: purple 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0%;
+}
+.col2:hover{
+    box-shadow: 0 4px 8px 0 purple;
+    border-radius: 10px;
+}
+section img{
+    width: 100%;   
+}
+section h1{
+    font-family: 'Oleo Script', cursive;
+    font-size: 500%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+section p{
+    font-size: 200%;
+    margin: 0 10px;
+    color: purple;
+    padding-bottom: 10px;
+}
+/*Contact Page Layout*/
+.Contactpg{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+#formitem{
+    margin-bottom: 20px;
 }
