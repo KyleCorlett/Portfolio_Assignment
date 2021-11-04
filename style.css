@@ -13,6 +13,7 @@ h1 {
 
 a:visited{
     color: white;
+    text-decoration: none;
 }
 
 .Mobile{
@@ -186,4 +187,34 @@ section p{
     padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.card{
+    border: purple 1px solid;
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 0 8px 18px 0 purple;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container{
+    padding: 2px 16px;
+}
+#blogcards{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr)
 }

@@ -95,6 +95,7 @@
 - Hid work links (04/11/21)
 - Made link images B/W (04/11/21)
 - Added BG img to all pages (04/11/21)
+- Added cards with links to blog pages (04/11/21)
 
 ### (22/10/2021)
 
@@ -180,3 +181,6 @@
 - fixed links on other pages with new nav bar
 - Made Nav bar link images black and white
 - Added background img to all pages
+- New pages for blogs on main layout
+- Added cards to main blog page and links to each blog
+- Styled card layouts
