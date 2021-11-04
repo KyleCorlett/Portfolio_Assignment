@@ -38,6 +38,11 @@ a:visited{
     width: 40%;
     display: flex;
     flex-direction: row;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 section{
     margin: auto;
@@ -135,4 +140,13 @@ section p{
     justify-content: space-around;
     margin: 0;
     padding: 0;
+ }
+ .Homepage{
+     display: flex;
+     flex-wrap: nowrap;
+ }
+ .Homepage img{
+     padding-top: 35px;
+     width: 100px;
+     height: 100%;
  }
