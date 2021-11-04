@@ -21,6 +21,9 @@ a:visited{
     color: white;
     text-decoration: none;
 }
+a:hover{
+    color: purple;
+}
 
 .navtext{
     color: white;
@@ -194,25 +197,36 @@ section p{
     border-radius: 5px;
     overflow: hidden;
     text-decoration: none !important;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
     color: white;
-    text-align: center;
     width: 95%;
     margin-bottom: 10px;
+    padding: 10rem 0 0;
+    transition: transform 500ms ease;
 }
 .card:hover{
-    box-shadow: 0 8px 18px 0 purple;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    transform: scale(1.05);
+}
+.card:hover .card-title::after{
+    transform: scaleX(1);
+}
+.card:hover .container{
+    transform: translateY(0);
+}
+.card:hover .container > *{
+    opacity: 1;
+    transition: opacity 500ms linear;
+    transition-delay: 300ms;
 }
 .container{
-    padding: 2px 16px;
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(255 50% 0% / .5) 20%, hsl(0 0% 0% / 1));
+    transform: translateY(60%);
+    transition: transform 500ms ease;
+}
+.container > *:not(.card-title){
+    opacity: 0;
+    transition-delay: 1000ms;
 }
 #blogcards{
     display: grid;
@@ -227,4 +241,43 @@ section p{
 }
 .blogpage p{
     padding-bottom: 10px;
+}
+#blog1{
+    background-image: url(/files/Images/KZ650/First.jpg);
+    background-size: cover;
+}
+#blog2{
+    background-image: url(/files/Images/KZ650/Second.jpg);
+    background-size: cover;
+}
+#blog3{
+    background-image: url(/files/Images/KZ650/Third.jpg);
+    background-size: cover;
+}
+#blog4{
+    background-image: url(/files/Images/KZ650/Forth.jpg);
+    background-size: cover;
+}
+#blog5{
+    background-image: url(/files/Images/KZ650/Fifth.jpg);
+    background-size: cover;
+}
+.card-title{
+    position: relative;
+    width: max-content;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+.card-title::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    left: calc(var(--padding) * -1);
+    background: purple;
+    width: calc(100% + var(--padding));
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 300ms ease;
+    transform-origin: left;
+
 }
