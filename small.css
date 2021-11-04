@@ -55,6 +55,29 @@
   background-color: black;
   filter: grayscale(50%);
 }
+#Pages{
+  background-color:black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%; 
+}
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+color: purple;
+}
+a{
+text-decoration: underline;
+text-align: center;
+color: white;
+}
+/*Home Page Layout*/
 #Home {
     background-color:transparent;
     color: white;
@@ -64,17 +87,6 @@
     margin: 0;
     background-image:  linear-gradient(0deg, rgba(2,0,36,1) 0%, transparent 40%);
 }
-
-#Pages{
-  background-color:black;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  height: 100%; 
-}
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-}
 .Homepage {
   display: flex;
   flex-direction: column;
@@ -82,19 +94,33 @@ h1 {
   height: 90%;
   margin: 3%;
 }
-
-a:visited{
-    color: white;
-    text-decoration: none;
+/*About Page Layout*/
+.About h1{
+  display: flex;
+  justify-content: center;
 }
-a:hover{
-  color: purple;
+/*Blog Page Layout*/
+.odd{
+  background-color: white;
+  color: black;
 }
-a{
+article h2{
+  display: flex;
+  justify-content: center;
+}
+.Blogimg{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1;
+  width: 100%;
+}
+article h2{
   text-decoration: underline;
-  text-align: center;
-  color: white;
 }
+article p{
+  padding: 25px 20px;
+}
+/*Work Page Layout*/
 section {
   display: flex;
   justify-content: center;
@@ -110,7 +136,10 @@ section {
 .Mobile-Links img{
   width: 80px;
 }
-
+section img{
+  width: 100%;
+}
+/*Contact Page Layout*/
 form{
   display: flex;
   flex-direction: column;
@@ -120,34 +149,6 @@ form{
   height: 100px;
   width: 98%;
 }
-
-.odd{
-  background-color: white;
-  color: black;
-}
-article h2{
-  display: flex;
-  justify-content: center;
-}
-.About h1{
-  display: flex;
-  justify-content: center;
-}
 .Contact{
   text-align: center;
-}
-.Blogimg{
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 1;
-  width: 100%;
-}
-article h2{
-  text-decoration: underline;
-}
-article p{
-  padding: 25px 20px;
-}
-section img{
-  width: 100%;
 }

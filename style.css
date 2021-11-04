@@ -39,7 +39,7 @@ a:visited{
 a:hover{
     color: purple;
 }
-
+/*Nav content*/
 .navtext{
     color: white;
     font-weight: 400;
@@ -76,6 +76,26 @@ a:hover{
 .Banner{ /* banner for all pages */
     width: 100%;
 }
+.bgimg { /*Background for Home*/
+    background-image: url("/files/Images/what-the-hex-dark.png");
+    height: 100%;
+    background-position: center;
+    background-repeat:inherit;
+    background-size: cover;
+    display: flex;
+    background-color: black;
+    filter: grayscale(50%);
+}
+.bg{ /*Background for pages*/
+    background-image: url("/files/Images/what-the-hex-dark.png");
+    height: 100%;
+    background-position: center;
+    background-repeat:inherit;
+    background-size: cover;
+    display: flex;
+    background-color: black;
+    filter: grayscale(50%);
+}
 #Profileimg{
     width: 40%;
     display: flex;
@@ -96,10 +116,9 @@ section{ /*Work page main div*/
     border-radius: 10px;
     padding: 0%;
 }
-
+/*Work Page Items*/
 section img{
-    width: 100%;
-    
+    width: 100%;   
 }
 section h1{
     font-family: 'Oleo Script', cursive;
@@ -114,35 +133,7 @@ section p{
     color: purple;
     padding-bottom: 10px;
 }
-
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-footer img{
-   width: 80px;
-}
-.articles img{
-      width: 100%;
-}
-.articles h2{
-    text-align: center;
-    text-decoration: underline;
-}
-.articles{
-    margin: 0px 10px;
-    padding-top: 30px;
-}
-.articles p{
-    padding: 0 15px;
-}
-.odd{
-    background-color: white;
-    color: black;
-    padding-bottom: 15px;
-}
+/*Home Page Layout*/
 .Homepage{
     display: flex;
     flex-wrap: nowrap;
@@ -153,26 +144,7 @@ footer img{
     width: 100px;
     height: 100%;
 }
-.bgimg {
-    background-image: url("/files/Images/what-the-hex-dark.png");
-    height: 100%;
-    background-position: center;
-    background-repeat:inherit;
-    background-size: cover;
-    display: flex;
-    background-color: black;
-    filter: grayscale(50%);
-}
-.bg{
-    background-image: url("/files/Images/what-the-hex-dark.png");
-    height: 100%;
-    background-position: center;
-    background-repeat:inherit;
-    background-size: cover;
-    display: flex;
-    background-color: black;
-    filter: grayscale(50%);
-}
+/*Contact Page Layout*/
 .Contactpg{
     display: flex;
     flex-direction: row-reverse;
@@ -181,6 +153,26 @@ footer img{
 }
 #formitem{
     margin-bottom: 20px;
+}
+/*Blog Page Layout*/
+.articles img{
+    width: 100%;
+}
+.articles h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.articles{
+  margin: 0px 10px;
+  padding-top: 30px;
+}
+.articles p{
+  padding: 0 15px;
+}
+.odd{
+  background-color: white;
+  color: black;
+  padding-bottom: 15px;
 }
 .Contactpg input{
     padding-right: 30px;
