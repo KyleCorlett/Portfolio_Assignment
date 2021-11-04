@@ -172,4 +172,18 @@ section p{
     display: flex;
     background-color: black;
     filter: grayscale(50%);
-  }
+}
+.Contactpg{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+#formitem{
+    margin-bottom: 20px;
+}
+.Contactpg input{
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
