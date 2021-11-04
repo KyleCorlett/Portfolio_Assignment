@@ -1,9 +1,55 @@
-# Portfolio Assignment
+# <ins>TA12 Portfolio Assignment</ins>
 
-GitHub: https://github.com/KyleCorlett/Portfolio_Assignment
-Website:
-Description of website:
-Site layout:
+## <ins>Links</ins>
+
+[GitHub Repository](https://github.com/KyleCorlett/Portfolio_Assignment)\
+[Deployed Website](https://kyle-portfolio-t1a2.netlify.app)
+
+## <ins>Functionality of website</ins>
+
+## <ins>Purpose of Website</ins>
+
+## <ins>Site Map</ins>
+
+### <ins>Target audience</ins>
+
+- My target audience is set for future employers and potential clients.
+
+### <ins>Tech stack</ins>
+
+- HTML
+- CSS
+- Javascript
+- Git
+- MD
+
+### <ins>Version control</ins>
+
+### <ins>Git hosting</ins>
+
+- Created local Git repository and master branched out to an online repository on GitHub
+
+### <ins>Code editor</ins>
+
+- Created and edited all code using VS Code ver.1.61.2
+
+### <ins>Deployment</ins>
+
+- Deployed site using Netlify
+
+### <ins>Security</ins>
+
+- Encrypted all files sources with SHA512 encryption
+
+### <ins>HTTPS</ins>
+
+- Auto applied HTTPS security when hosting with Netlify
+
+### <ins>Attributions</ins>
+
+- GitHub & LinkedIn logos sourced from Bootstrap Icons
+
+## <ins>Progress</ins>
 
 ### Mobile Layout Updates
 
@@ -47,7 +93,7 @@ Site layout:
 - Hid work links (04/11/21)
 - Made link images B/W (04/11/21)
 
-## (22/10/2021)
+### (22/10/2021)
 
 - Created Trello work space to keep track of project
 - Added Meta Data to each page for context and to help with responsiveness
@@ -66,7 +112,7 @@ Site layout:
 - Fixed stylesheet link
 - Created a stylesheet for mobile layout
 
-## (23/10/22)
+### (23/10/22)
 
 - Created about page to give home page more clarity
 - Added about page into Nav bar
@@ -77,7 +123,7 @@ Site layout:
 - Added filler content to all the pages to help with styling
 - Added a button to the contact for
 
-## (24/10/21)
+### (24/10/21)
 
 - Fixed Broken links in NavBar and stylesheets
 - Started to style desktop main page
@@ -86,7 +132,7 @@ Site layout:
 - Styled desktop Nav bar
 - Fixed JS link to home page
 
-## (27/10/21)
+### (27/10/21)
 
 - Added images to blog page
 - Made Images adjust to mobile screen size
@@ -95,7 +141,7 @@ Site layout:
 - Added images to Work Page
 - Rearranged Work Page
 
-## (28/10/21)
+### (28/10/21)
 
 - Added embedded links to work image files
 - Added integrity attribute to each file on the stylesheets
@@ -109,7 +155,7 @@ Site layout:
 - Added google font link to all pages for h1 elements
 - Uses grid to style desktop work page more
 
-## (03/11/21)
+### (03/11/21)
 
 - Changed contact message form input
 - Changed mobile banners to just be text and styled them
@@ -123,7 +169,7 @@ Site layout:
 - Added banners to desktop pages
 - Sized banners to pages
 
-## (04/11/21)
+### (04/11/21)
 
 - Changed main nav bar to be a side nav bar
 - Styled main nav bar
