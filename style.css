@@ -47,6 +47,7 @@ section{
     margin: auto;
     text-align: center;
     flex-wrap: wrap;
+    padding-bottom: 5px;
 }
 .col2{
     display: grid;
@@ -76,6 +77,7 @@ section p{
     font-size: 200%;
     margin: 0 10px;
     color: purple;
+    padding-bottom: 10px;
 }
 
  footer{
@@ -219,4 +221,10 @@ section p{
 }
 #blogcards img{
     width: 100%;
+}
+.blogpage img{
+    width: 100%;
+}
+.blogpage p{
+    padding-bottom: 10px;
 }
