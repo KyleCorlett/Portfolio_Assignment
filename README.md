@@ -96,6 +96,8 @@
 - Made link images B/W (04/11/21)
 - Added BG img to all pages (04/11/21)
 - Added cards with links to blog pages (04/11/21)
+- Added animations for blog cards (04/11/21)
+- Added hover glow to nav icons (04/11/21)
 
 ### (22/10/2021)
 
@@ -184,3 +186,5 @@
 - New pages for blogs on main layout
 - Added cards to main blog page and links to each blog
 - Styled card layouts
+- Added animations for cards on blog page
+- Added hover glow to main nav bar icon links

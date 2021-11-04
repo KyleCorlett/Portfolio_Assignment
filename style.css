@@ -10,13 +10,28 @@ body {
     margin: 0;
     margin-left: 170px;
 }
-
+#Menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 8em;
+    margin-top: 0;
+    height: 100%;
+    width: 120px;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+    z-index: 1;
+ }
+ #Menu a{
+     display: flex;
+     flex-direction: column;
+ }
 h1 {
     font-family: 'Oleo Script', cursive;
     color: white;
     font-size: 500%;
 }
-
 a:visited{
     color: white;
     text-decoration: none;
@@ -36,32 +51,49 @@ a:hover{
 .navtext:hover{
     color: purple;
 }
+.navsocials img{
+    width: 50px;
+    padding: 5px;
+}
+.navsocials{
+   position: fixed; 
+   bottom: 10px;
+   left: 25px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   margin: 0;
+   padding: 0;
+}
+#Githubico:hover{
+ box-shadow: 0 4px 8px 0 purple;
+ border-radius: 50%;
+}
+#Linkedinico:hover{
+ box-shadow: 0 4px 8px 0 purple;
+ border-radius: 5px;
+}
+.Banner{ /* banner for all pages */
+    width: 100%;
+}
 #Profileimg{
     width: 40%;
     display: flex;
     flex-direction: row;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
-section{
+section{ /*Work page main div*/
     margin: auto;
     text-align: center;
     flex-wrap: wrap;
     padding-bottom: 5px;
 }
-.col2{
+.col2{ /* Work page items*/
     display: grid;
     grid-template: 0% 0% / 50% 50%;
     border: purple 1px solid;
     margin: 10px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     padding: 0%;
 }
 
@@ -83,82 +115,45 @@ section p{
     padding-bottom: 10px;
 }
 
- footer{
+footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-  }
-  footer img{
-    width: 80px;
-  }
-  .articles img{
+}
+footer img{
+   width: 80px;
+}
+.articles img{
       width: 100%;
-  }
-  .articles h2{
-      text-align: center;
-      text-decoration: underline;
-  }
-  .articles{
-      margin: 0px 10px;
-      padding-top: 30px;
-  }
-  .articles p{
-      padding: 0 15px;
-  }
-  .odd{
-      background-color: white;
-      color: black;
-      padding-bottom: 15px;
-  }
- .Banner{
-     width: 100%;
- }
- #Menu{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 8em;
-    margin-top: 0;
-    height: 100%;
-    width: 120px;
-    background-color: grey;
-    overflow-x: hidden;
-    padding-top: 20px;
-    z-index: 1;
- }
- #Menu a{
-     display: flex;
-     flex-direction: column;
- }
- .navsocials img{
-     width: 50px;
-     padding: 5px;
- }
- .navsocials{
-    position: fixed; 
-    bottom: 10px;
-    left: 25px;
+}
+.articles h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.articles{
+    margin: 0px 10px;
+    padding-top: 30px;
+}
+.articles p{
+    padding: 0 15px;
+}
+.odd{
+    background-color: white;
+    color: black;
+    padding-bottom: 15px;
+}
+.Homepage{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
- }
- .Homepage{
-     display: flex;
-     flex-wrap: nowrap;
-     flex-direction: row-reverse;
- }
- .Homepage img{
-     padding-top: 35px;
-     width: 100px;
-     height: 100%;
- }
- .navsocials a:hover{
-     background-color: purple;
- }
- .bgimg {
+    flex-direction: row-reverse;
+}
+.Homepage img{
+    padding-top: 35px;
+    width: 100px;
+    height: 100%;
+}
+.bgimg {
     background-image: url("/files/Images/what-the-hex-dark.png");
     height: 100%;
     background-position: center;
@@ -167,8 +162,8 @@ section p{
     display: flex;
     background-color: black;
     filter: grayscale(50%);
-  }
-  .bg{
+}
+.bg{
     background-image: url("/files/Images/what-the-hex-dark.png");
     height: 100%;
     background-position: center;
@@ -203,30 +198,35 @@ section p{
     padding: 10rem 0 0;
     transition: transform 500ms ease;
 }
-.card:hover{
-    transform: scale(1.05);
-}
-.card:hover .card-title::after{
-    transform: scaleX(1);
-}
-.card:hover .container{
-    transform: translateY(0);
-}
-.card:hover .container > *{
-    opacity: 1;
-    transition: opacity 500ms linear;
-    transition-delay: 300ms;
-}
 .container{
     --padding: 1.5rem;
     padding: var(--padding);
     background: linear-gradient(hsl(0 0% 0% / 0), hsl(255 50% 0% / .5) 20%, hsl(0 0% 0% / 1));
+}
+
+@media (hover){
+    .container{
     transform: translateY(60%);
     transition: transform 500ms ease;
-}
-.container > *:not(.card-title){
-    opacity: 0;
-    transition-delay: 1000ms;
+    }
+    .card:hover{
+        transform: scale(1.05);
+    }
+    .card:hover .card-title::after{
+        transform: scaleX(1);
+    }
+    .card:hover .container{
+        transform: translateY(0);
+    }
+    .card:hover .container > *{
+        opacity: 1;
+        transition: opacity 500ms linear;
+        transition-delay: 300ms;
+    }
+    .container > *:not(.card-title){
+        opacity: 0;
+        transition-delay: 1000ms;
+    }
 }
 #blogcards{
     display: grid;
@@ -279,5 +279,4 @@ section p{
     transform: scaleX(0);
     transition: transform 300ms ease;
     transform-origin: left;
-
 }
