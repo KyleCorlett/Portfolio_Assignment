@@ -47,7 +47,9 @@
 
 ### <ins>Attributions</ins>
 
-- GitHub & LinkedIn logos sourced from Bootstrap Icons
+- GitHub & LinkedIn logos sourced from Bootstrap Icons\
+- [Background image](https://www.toptal.com/designers/subtlepatterns/what-the-hex-dark/?__cf_chl_captcha_tk__=R7W64mezE21Ek5iajnvWERHoXJNEFE_x5eYzmMhCFoA-1635990099-0-gaNycGzNB9E)\
+- [Coming soon pages]()
 
 ## <ins>Progress</ins>
 

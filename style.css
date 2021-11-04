@@ -1,5 +1,4 @@
 body {
-    background-color: black;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -154,3 +153,23 @@ section p{
  .navsocials a:hover{
      background-color: purple;
  }
+ .bgimg {
+    background-image: url("/files/Images/what-the-hex-dark.png");
+    height: 100%;
+    background-position: center;
+    background-repeat:inherit;
+    background-size: cover;
+    display: flex;
+    background-color: black;
+    filter: grayscale(50%);
+  }
+  .bg{
+    background-image: url("/files/Images/what-the-hex-dark.png");
+    height: 100%;
+    background-position: center;
+    background-repeat:inherit;
+    background-size: cover;
+    display: flex;
+    background-color: black;
+    filter: grayscale(50%);
+  }
