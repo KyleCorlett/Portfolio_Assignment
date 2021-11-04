@@ -206,9 +206,9 @@ footer img{
 
 @media (hover){
     .container{
-    transform: translateY(60%);
+    transform: translateY(55%);
     transition: transform 500ms ease;
-    }
+}
     .card:hover{
         transform: scale(1.05);
     }
