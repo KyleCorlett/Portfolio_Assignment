@@ -28,6 +28,9 @@
         </nav>
 
         <nav class="Main"> <!--Nav for Desktop Layout-->
+            <div class="navimg">
+                <img src="/files/Images/signature.png" alt="Signature" id="NavImg">
+            </div>
             <ul id="Menu">
                 <a href="/home.html" class="navtext">Home</a>
                 <a href="about.html" class="navtext">About</a>
@@ -41,20 +44,20 @@
             </ul>
         </nav>
         <div class="Contactpg"> <!--Contact Information-->
-            <div class="Contact">
+            <div class="col">
                 <p>Name: Kyle Corlett</p>
                 <p>Email: TestEmail@hotmail.com</p>
                 <p>Phone: 0412345678</p>
             </div>
-            <form>
-                <h2 class="Contact">Contact me</h2> <!--Contact Form-->
-                <input type="text" placeholder="Name" id="formitem"><br>
-                <input type="email" placeholder="Email Address" id="formitem"><br>
-                <div class="form-floating" id="formitem">
+            <form class="col">
+                <h2>Contact me</h2> <!--Contact Form-->
+                <input type="text" placeholder="Name" class="formitem">
+                <input type="email" placeholder="Email Address" class="formitem">
+                <div class="form-floating" class="formitem">
                     <textarea class="form-control" placeholder="Leave a message here" id="Message" style="height: 100px"></textarea>
                     <label for="floatingTextarea2"></label>
                 </div>
-                <input type="button" value="Submit" id="formitem">
+                <input type="button" value="Submit" class="formitem" id="Button">
             </form>
         </div>
     </body>
