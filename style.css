@@ -28,6 +28,9 @@ h1 {
     color: white;
     font-size: 500%;
 }
+a{
+    color: white;
+}
 a:visited{
     color: white;
     text-decoration: none;
@@ -276,20 +279,44 @@ section p{
     padding-bottom: 10px;
 }
 /*Contact Page Layout*/
+.ContactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.Form{
+    display: grid;
+    height: 100%;
+    grid-template-rows:v repeat(4, 1fr) ;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-gap: 20px;
+}
+.formtitle{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.formname{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.formemail{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.formmessage{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.formbutton{
+    grid-row: span 1;
+    grid-column: span 2;
+}
 .Contactpg{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-/* .Contactpg > *{
-    flex: 1 1 50%;
-} */
-.formitem{
-    margin-bottom: 20px;
-}
-#Message{
-    width: 100%;
-}
-#Button{
-   text-align: center;
+.Info h2{
+    padding-bottom: 15px;
 }
