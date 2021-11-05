@@ -140,7 +140,7 @@ section img{
   width: 100%;
 }
 /*Contact Page Layout*/
-form{
+/* form{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,4 +151,97 @@ form{
 }
 .Contact{
   text-align: center;
+} */
+@media screen and (max-width: 460px) {
+  .ContactForm{
+    display: flex;
+    flex-direction: column;
+  }
+  .Form{
+    display: grid;
+    height: 100%;
+    grid-template-rows:v repeat(5, 1fr) ;
+    grid-template-columns: repeat(1, 1fr) ;
+    grid-gap: 20px;
+  }
+  .formtitle{
+    grid-row: span 1;
+    grid-column: span 1;
+    text-align: center;
+  }
+  .formname{
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  .formemail{
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  .formmessage{
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  .formbutton{
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  .Contactpg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .Info h2{
+    display: none;
+  }
+  .Info{
+    text-align: center;
+  }
+}
+@media screen and (min-width: 461px) {
+  .ContactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.Form{
+    display: grid;
+    height: 100%;
+    grid-template-rows:v repeat(4, 1fr) ;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-gap: 20px;
+}
+.formtitle{
+    grid-row: span 1;
+    grid-column: span 2;
+    text-align: center;
+}
+.formname{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.formemail{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.formmessage{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.formbutton{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.Contactpg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Info h2{
+    display: none;
+}
+.Info{
+  text-align: center;
+}
 }
