@@ -58,7 +58,7 @@ a:hover{
 }
 .navsocials{
    position: fixed; 
-   bottom: 10px;
+   bottom: 65px;
    left: 25px;
    display: flex;
    flex-wrap: nowrap;
