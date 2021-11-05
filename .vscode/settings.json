@@ -4,10 +4,14 @@
         "blogcards",
         "Blogimg",
         "Contactpg",
+        "formemail",
         "formitem",
+        "formname",
+        "formtitle",
         "Mobileheader",
         "navsocials",
         "navtext",
-        "Profileimg"
+        "Profileimg",
+        "Wireframe"
     ]
 }
