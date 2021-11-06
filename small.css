@@ -95,7 +95,10 @@ color: white;
   margin: 3%;
 }
 /*About Page Layout*/
-.About h1{
+.About h2{
+  text-align: center;
+}
+#contactlink{
   display: flex;
   justify-content: center;
 }
