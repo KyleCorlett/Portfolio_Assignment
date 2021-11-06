@@ -100,23 +100,78 @@ color: white;
   justify-content: center;
 }
 /*Blog Page Layout*/
-.odd{
-  background-color: white;
-  color: black;
-}
-article h2{
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-}
-.Blogimg{
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 1;
+.articles img{
   width: 100%;
 }
-article p{
-  padding: 25px 20px;
+.articles h2{
+text-align: center;
+text-decoration: underline;
+}
+.articles{
+margin: 0 10px;
+padding-top: 30px;
+}
+.articles p{
+padding: 0 15px;
+}
+.Contactpg input{
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.card{
+  border: purple 1px solid;
+  border-radius: 5px;
+  text-decoration: none !important;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10rem 0 0;
+}
+.container{
+  --padding: 1.5rem;
+  padding: var(--padding);
+  background: linear-gradient(hsl(0 0% 0% / 0), hsl(255 50% 0% / .5) 20%, hsl(0 0% 0% / 1));
+}
+#blogcards{
+  display: flex;
+  flex-direction: column;
+}
+#blogcards img{
+  width: 100%;
+}
+.blogpage{
+  color: white;
+}
+.blogpage h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.blogpage img{
+  width: 100%;
+}
+.blogpage p{
+  padding-bottom: 10px;
+}
+#blog1{
+  background-image: url(/files/Images/KZ650/First.jpg);
+  background-size: cover;
+}
+#blog2{
+  background-image: url(/files/Images/KZ650/Second.jpg);
+  background-size: cover;
+}
+#blog3{
+  background-image: url(/files/Images/KZ650/Third.jpg);
+  background-size: cover;
+}
+#blog4{
+  background-image: url(/files/Images/KZ650/Forth.jpg);
+  background-size: cover;
+}
+#blog5{
+  background-image: url(/files/Images/KZ650/Fifth.jpg);
+  background-size: cover;
 }
 /*Work Page Layout*/
 section {
