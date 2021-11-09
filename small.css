@@ -46,7 +46,7 @@
   color: white;
 }
 .bg {
-  background-image: url("/files/Images/Kyle.png");
+  background-image: url("/docs/Images/Kyle.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,23 +157,23 @@ padding: 0 15px;
   padding-bottom: 10px;
 }
 #blog1{
-  background-image: url(/files/Images/KZ650/First.jpg);
+  background-image: url(/docs/Images/KZ650/First.jpg);
   background-size: cover;
 }
 #blog2{
-  background-image: url(/files/Images/KZ650/Second.jpg);
+  background-image: url(/docs/Images/KZ650/Second.jpg);
   background-size: cover;
 }
 #blog3{
-  background-image: url(/files/Images/KZ650/Third.jpg);
+  background-image: url(/docs/Images/KZ650/Third.jpg);
   background-size: cover;
 }
 #blog4{
-  background-image: url(/files/Images/KZ650/Forth.jpg);
+  background-image: url(/docs/Images/KZ650/Forth.jpg);
   background-size: cover;
 }
 #blog5{
-  background-image: url(/files/Images/KZ650/Fifth.jpg);
+  background-image: url(/docs/Images/KZ650/Fifth.jpg);
   background-size: cover;
 }
 /*Work Page Layout*/

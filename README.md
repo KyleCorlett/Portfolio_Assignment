@@ -2,10 +2,12 @@
 
 ## Links
 
-- [GitHub Repository](https://github.com/KyleCorlett/Portfolio_Assignment)\
+- [GitHub Repository](https://github.com/KyleCorlett/Portfolio_Assignment)
 - [Deployed Website](https://kyle-portfolio-t1a2.netlify.app)
 
 ## Functionality of website
+
+- The main function of this website is to provide information to employers or clients who visit my website in hopes of finding out more about my work or myself as a person.
 
 ## Purpose of Website
 
@@ -51,6 +53,7 @@
 
 - GitHub & LinkedIn logos sourced from Bootstrap Icons
 - [Background image](https://www.toptal.com/designers/subtlepatterns/what-the-hex-dark/?__cf_chl_captcha_tk__=R7W64mezE21Ek5iajnvWERHoXJNEFE_x5eYzmMhCFoA-1635990099-0-gaNycGzNB9E)
-- [Coming soon pages]()
+- [Coming soon pages](https://www.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_8562880.htm)
+- [Fonts](https://fonts.google.com/)
 
 ### Screen Shots of finished website

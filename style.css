@@ -89,7 +89,7 @@ a:hover{
     width: 100%;
 }
 .bgimg { /*Background for Home*/
-    background-image: url("/files/Images/what-the-hex-dark.png");
+    background-image: url("/docs/Images/what-the-hex-dark.png");
     height: 100%;
     background-position: center;
     background-repeat:inherit;
@@ -99,7 +99,7 @@ a:hover{
     filter: grayscale(50%);
 }
 .bg{ /*Background for pages*/
-    background-image: url("/files/Images/what-the-hex-dark.png");
+    background-image: url("/docs/Images/what-the-hex-dark.png");
     height: 100%;
     background-position: center;
     background-repeat:inherit;
@@ -205,23 +205,23 @@ a:hover{
     padding-bottom: 10px;
 }
 #blog1{
-    background-image: url(/files/Images/KZ650/First.jpg);
+    background-image: url(/docs/Images/KZ650/First.jpg);
     background-size: cover;
 }
 #blog2{
-    background-image: url(/files/Images/KZ650/Second.jpg);
+    background-image: url(/docs/Images/KZ650/Second.jpg);
     background-size: cover;
 }
 #blog3{
-    background-image: url(/files/Images/KZ650/Third.jpg);
+    background-image: url(/docs/Images/KZ650/Third.jpg);
     background-size: cover;
 }
 #blog4{
-    background-image: url(/files/Images/KZ650/Forth.jpg);
+    background-image: url(/docs/Images/KZ650/Forth.jpg);
     background-size: cover;
 }
 #blog5{
-    background-image: url(/files/Images/KZ650/Fifth.jpg);
+    background-image: url(/docs/Images/KZ650/Fifth.jpg);
     background-size: cover;
 }
 .card-title{
