@@ -15,7 +15,7 @@
 
 ## Site Map & Wireframe
 
-![image](/files/WireFrame/Wireframe.png)
+![image](/docs/WireFrame/Wireframe.png)
 
 ### Target audience
 
@@ -57,3 +57,21 @@
 - [Fonts](https://fonts.google.com/)
 
 ### Screen Shots of finished website
+
+### Desktop:
+
+- ![image](docs/ScreenShots/Desktop/Home.png)
+- ![image](docs/ScreenShots/Desktop/About.png)
+- ![image](docs/ScreenShots/Desktop/Blog.png)
+- ![image](docs/ScreenShots/Desktop/Blog1.png)
+- ![image](docs/ScreenShots/Desktop/Work.png)
+- ![image](docs/ScreenShots/Desktop/Contact.png)
+
+### Mobile:
+
+- ![image](docs/ScreenShots/Mobile/Home.png)
+- ![image](docs/ScreenShots/Mobile/About.png)
+- ![image](docs/ScreenShots/Mobile/Blog.png)
+- ![image](docs/ScreenShots/Mobile/Blog1.png)
+- ![image](docs/ScreenShots/Mobile/Work.png)
+- ![image](docs/ScreenShots/Mobile/Contact.png)
