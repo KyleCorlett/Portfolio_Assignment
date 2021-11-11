@@ -13,15 +13,11 @@
 
 - The purpose of this website is to introduce myself to potential employers and potential clients. It has a brief introduction of myself along with work examples/links and how to get in contact with me.
 
-## Site Map & Wireframe
-
-![image](/docs/WireFrame/Wireframe.png)
-
-### Target audience
+## Target audience
 
 - My target audience is set for future employers and potential clients.
 
-### Tech stack
+## Tech stack
 
 - HTML
 - CSS
@@ -29,36 +25,40 @@
 - Git
 - MD
 
-### Version control
+## Version control
 
 - Created local Git repository and master branched out to an online repository on GitHub
 
-### Code editor
+## Code editor
 
 - Created and edited all code using VS Code ver.1.61.2
 
-### Deployment
+## Deployment
 
 - Deployed site using Netlify
 
-### Security
+## Security
 
 - Encrypted all files sources with SHA512 encryption
 
-### HTTPS
+## HTTPS
 
 - Auto applied HTTPS security when hosting with Netlify
 
-### Attributions
+## Attributions
 
 - GitHub & LinkedIn logos sourced from Bootstrap Icons
 - [Background image](https://www.toptal.com/designers/subtlepatterns/what-the-hex-dark/?__cf_chl_captcha_tk__=R7W64mezE21Ek5iajnvWERHoXJNEFE_x5eYzmMhCFoA-1635990099-0-gaNycGzNB9E)
 - [Coming soon pages](https://www.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_8562880.htm)
 - [Fonts](https://fonts.google.com/)
 
-### Screen Shots of finished website
+# Site Map & Wireframe
 
-### Desktop:
+![image](/docs/WireFrame/Wireframe.png)
+
+# Screen Shots of finished website
+
+## Desktop
 
 - ![image](docs/ScreenShots/Desktop/Home.png)
 - ![image](docs/ScreenShots/Desktop/About.png)
@@ -67,7 +67,7 @@
 - ![image](docs/ScreenShots/Desktop/Work.png)
 - ![image](docs/ScreenShots/Desktop/Contact.png)
 
-### Mobile:
+## Mobile
 
 - ![image](docs/ScreenShots/Mobile/Home.png)
 - ![image](docs/ScreenShots/Mobile/About.png)
