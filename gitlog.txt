@@ -1,0 +1,390 @@
+commit 90d362a8045a15ef223cc2764b42a237492fec18
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 14:34:00 2021 +1000
+
+    SRI for all pages and links
+
+commit 7ecab8bcf570245064d873db595d70541115daf8
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 14:27:43 2021 +1000
+
+    SRI home
+
+commit dead898854a6945a87b68ec1ab1bb55f49b5ad0c
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 11:40:45 2021 +1000
+
+    Updated SlideDeck
+
+commit 94034ac53ba848461eb310a3fe1c90304c3dd468
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 11:30:35 2021 +1000
+
+    File links
+
+commit c406e2af3855933dc3b13c972ae3541c8a2ccf4b
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 11:27:29 2021 +1000
+
+    Removed Integrety
+
+commit 0f132336671253e8ffa259e8c7418b24a1a8d13a
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 07:48:18 2021 +1000
+
+    Updated ReadMe & Slidedeck
+
+commit bcc7341336f7f7955f4cd0e9cc6924e856681fba
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Tue Nov 9 21:23:22 2021 +1000
+
+    Added SRI to css files
+
+commit 7c17a22ba1613ce3d41d5a6777e4af45517df1a4
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Tue Nov 9 21:11:19 2021 +1000
+
+    Added Slick deck to files
+
+commit 80c8e8ce816de72e5c0b84b2c3df055b161c71a8
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Tue Nov 9 20:57:18 2021 +1000
+
+    Updated Readme screenshots, Fixed work image link
+
+commit 9bf5271a44b1a4b9652e4a040d1fe530b3597e76
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Tue Nov 9 20:40:25 2021 +1000
+
+    Changed /files to /docs for submission, changed all links to match
+
+commit 66cb9d1a47f18d37b64dcbab90a86cbff637b85f
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Nov 6 22:27:15 2021 +1000
+
+    Fixed links on mobile blog, removed dupliocate pics on blogs, fixed styling on about mobile
+
+commit 97c09a53b06d6959d891068b61cc94e81ec694e7
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Nov 6 22:18:12 2021 +1000
+
+    Changed mobile blog page to match desktop, styled blog page, and blogs for mobile
+
+commit 5726e856a2df903bba1077419ae6e4c2bf02df83
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 14:29:11 2021 +1000
+
+    Removing unused css code
+
+commit d4ace2330fd2a47f2c32e376536eb9cd962c335d
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 14:25:22 2021 +1000
+
+    Fixed problems found in code check in style.css
+
+commit b7914189ac96e4bfa7558c20295e67d1d167f499
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 14:16:59 2021 +1000
+
+    Updating MD for course work, removed unused css file
+
+commit d827711c4b57f00be09d246bde21365b2790d64f
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 14:01:34 2021 +1000
+
+    Made resume downloadable on contact page
+
+commit 4f5e2533a8c44f4adaa4ab078f88226a2626d497
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 13:54:46 2021 +1000
+
+    Made Contact page responsive to grid for mobile and tablet
+
+commit a30dc8498381aca84d785c706d8fe536b42faeac
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 13:45:41 2021 +1000
+
+    Styled contact form using grid, added clickable links for contact info
+
+commit 4da7693bc0df0fed19c8b494251dce21eaaca0ff
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 10:56:17 2021 +1000
+
+    Fixed Nav link placement after update
+
+commit efe8c2bc483fae7379de9e8732d1fa00075b07f7
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 10:53:57 2021 +1000
+
+    Added Signature to top on nav bar
+
+commit b436ea2b12c4b8a16e779984bd81d65aa9a3bb29
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 09:13:03 2021 +1000
+
+    Shuffled Main CSS, added hover glow to work page items
+
+commit f82af761c47f6cb3782f58bd1f695f56cc5d0f44
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 09:05:58 2021 +1000
+
+    Organised Css, added comments to every page
+
+commit 2c1980666e06f85c72077d3e59b5c92b15667e57
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 5 08:26:21 2021 +1000
+
+    Fixed Mobile home layout issue
+
+commit 763be791274344cfe0b74b04a962497b5d306018
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 22:11:35 2021 +1000
+
+    Added Wireframe to readme
+
+commit 2c87d4fcf3716b051e0b096c1d4a62a1aca9e340
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 21:34:29 2021 +1000
+
+    Fixed blog card title height for larger screen
+
+commit 5ec402350e84d98e1ad8b4ed2beab1997c584431
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 21:31:02 2021 +1000
+
+    Added hover to main nav icon links
+
+commit 672f21ae4eeeeecbfc568e5e4c06d339494ee0fd
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 20:56:27 2021 +1000
+
+    Made animnations for blog post cards
+
+commit f238f260fab77db21826bea5eb91cec00d611331
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 15:13:55 2021 +1000
+
+    Styled seperate blog pages, added nav to pages
+
+commit 14ca50912b552250b43064343594314206a53f3e
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 14:32:02 2021 +1000
+
+    Removed underline from blog links
+
+commit ec74c98e84c82d5e3310923567ab056cf76a73e3
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 14:20:28 2021 +1000
+
+    Blog cards for main layout, and styled
+
+commit ac7a4dd1792352c397fd9d5cb167fc8ac9689646
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 13:30:20 2021 +1000
+
+    Split blogs off onto new pages for main layout, created new blog pages
+
+commit ab54d08e4c4d95a3b9ee3239f960cb15cef846df
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 11:46:02 2021 +1000
+
+    Added BG img to all pages
+
+commit 84b5337da156d945c1918d11472acb7ca0771827
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 11:22:29 2021 +1000
+
+    Styled Readme and added relevant information
+
+commit 845cd6ceab649a5e772ad29d55c6e0546065cdc0
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 10:49:42 2021 +1000
+
+    Added notes to HTML
+
+commit 22e89e86de0a5b03b20d6426de0635954640e8c5
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 10:33:44 2021 +1000
+
+    Rounded main profile img
+    added div to home page
+
+commit e66308af84ba4ac90d0f6a67ba4d7e23c223330f
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 09:50:24 2021 +1000
+
+    Nav link img to black and white
+
+commit 787c1bb08779944a3d776ac9a7ab01ce3b735c52
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 09:39:40 2021 +1000
+
+    Hid links on workpage for main layout
+
+commit be232f55644f799d5560394a529466a265205c1c
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Nov 4 09:37:42 2021 +1000
+
+    Main nav to sidebar, styled and added links.
+
+commit 1c63b093637bebc4e05f0c1854b138d48f15d339
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Nov 3 23:16:12 2021 +1000
+
+    Added Banner img to desktop site
+
+commit 7cd7856d176ffb0edeaa38a426d51eabd05e912f
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Nov 3 22:53:47 2021 +1000
+
+    Made blog imgaes fit screen, styled blog text
+
+commit fa7374a2b319f1512612c763d5086f3e5c6751bf
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Nov 3 22:41:08 2021 +1000
+
+    Updated mobile nav to have selected webpages, and color
+
+commit 90720a9055c8f92642af2d4dc3d5a9c202d08fe8
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Nov 3 22:30:14 2021 +1000
+
+    Changed 2nd website
+
+commit c54af17090f8ac511a057ff252ff4e59f4b5dc5e
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Nov 3 22:27:51 2021 +1000
+
+    Compressed blog images
+
+commit 2c70226bb3ce49a8b5b787e705a4b16e5c029405
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Nov 3 22:24:41 2021 +1000
+
+    Changed Kyle.png file size
+
+commit 6cfaabf4739119d6128a6ce3f471ab894451848c
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Nov 3 21:52:18 2021 +1000
+
+    Changed contact form, changed mobile banners, added work links
+
+commit 236240b2a7b61e0fab809092cc34e07541a25567
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Oct 28 17:53:38 2021 +1000
+
+    Css grid work page, styled h1 fonts
+
+commit 8ab1377c3d77a2b4f097c68c2169588b43480b1c
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Oct 28 16:23:50 2021 +1000
+
+    styled work page, added footer to work,linked google fonts for blog, changed visited link color
+
+commit 44b8e3aeaeb1447ce96eb9ccfb706e63b174ad8f
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Oct 28 14:39:43 2021 +1000
+
+    Fixed banner links, language tags, alt img text
+
+commit c6792adb09e9770b175a00d4885c71a92c745a28
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Oct 28 14:13:34 2021 +1000
+
+    Changed nav id to class, added intergety attributes
+
+commit 1123e36c700e2f2e6fd105d36b5f825562bf27c9
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Wed Oct 27 23:03:34 2021 +1000
+
+    Images on blog and work page, arranged mobile work/blog page
+
+commit c6f0664f7b15f39c9fecc2304db646b3b419c057
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sun Oct 24 22:36:36 2021 +1000
+
+    styled main nav, start styled main page, fixed links
+
+commit 1463c506e925aead48d2d62567505e0280847573
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sun Oct 24 18:18:39 2021 +1000
+
+    Fixed broken HTML links
+
+commit e15f7b8a172f6a4a8430b991e07d7760913905ae
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Oct 23 12:54:28 2021 +1000
+
+    Filler, work links, basic styling
+
+commit 84d14903fe9a2738b42bb0d0adbd7c2dbd8bae61
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Oct 23 10:45:40 2021 +1000
+
+    Bg img, Styled Main
+
+commit ae5ffafb3009830dc85e09c3ace0e36bf1f00f08
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Oct 23 09:30:18 2021 +1000
+
+    Add about page, change break points
+
+commit 9295390f6eacf6fcb03fb7d7ab9c5e5c66ede8a2
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Oct 22 16:14:03 2021 +1000
+
+    Hmburger menu, normal Nav, Banner menu
+
+commit 3e96ad5a0797be65621f061255e91ae496d9d346
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Oct 22 15:37:31 2021 +1000
+
+    Added small stylesheet, removed JS
+
+commit c14e2479ad828f96965313e4256a77e4b178252b
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Oct 22 15:17:50 2021 +1000
+
+    Fix stylesheet link
+
+commit a0947a9975f8c5fdd848d988be8491550d0dea7c
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Oct 22 14:44:05 2021 +1000
+
+    Created JS, linked JS, added media q
+
+commit 63b2cbf55673226cb6420e7a3cbf35df38f7f802
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Oct 22 14:30:27 2021 +1000
+
+    Started responsiveness, hiding and showing element
+
+commit ebaf1ea74218bb78fb8b03a63744b35ecc00f4be
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Oct 22 09:21:29 2021 +1000
+
+    Navbar, blog posts, worklinks, metatags, banner placeholders
+
+commit a5fbe787cc684cd8ddc82b116fa3048f04671625
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Thu Oct 21 11:28:44 2021 +1000
+
+    Update Main folder
+
+commit 9d344a53b615a9860ed2376d0d50d5c115d7e3eb
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Oct 16 16:42:25 2021 +1000
+
+    Finsihed day one, Readme more details
+
+commit f22e89384095ff620a6dccf3830e294ae8a95353
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Oct 16 11:26:06 2021 +1000
+
+    Add README.md
+
+commit f30178d91a13bd28f49654e8dbe95fbde92fe548
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Sat Oct 16 11:21:46 2021 +1000
+
+    Initial Commit
