@@ -1,3 +1,21 @@
+commit 41dc7562983bfb679983cf6103c1ab7479f2b290
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 15:31:23 2021 +1000
+
+    Fix JS SRI link
+
+commit fa3c72f268fc64c0a3538f69cf0184b539332582
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 15:30:29 2021 +1000
+
+    Fix SRI links
+
+commit fa36ce74146274dfa484d4fa0b9697e02d23e67c
+Author: Kyle Corlett <corlettkyle5@hotmail.com>
+Date:   Fri Nov 12 14:40:41 2021 +1000
+
+    Git log txt file
+
 commit 90d362a8045a15ef223cc2764b42a237492fec18
 Author: Kyle Corlett <corlettkyle5@hotmail.com>
 Date:   Fri Nov 12 14:34:00 2021 +1000
